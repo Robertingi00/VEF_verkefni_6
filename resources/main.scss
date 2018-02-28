@@ -1,0 +1,366 @@
+
+@import url("https://fonts.googleapis.com/css?family=Acme|Raleway");
+$font-stack:'Raleway', sans-serif;
+$font-header:'Acme', sans-serif;
+$main-color:#242329;
+$color-2:#505261;
+body{
+	background-color: #242329;
+	font-family: 'Open Sans', sans-serif;
+	.tekka{
+		border-radius: 10px;
+		position: absolute;
+		right: 0;
+		color: #fefefe;
+		padding: .3em;
+		top:0;
+
+}
+header{
+	color: #fefefe;
+	margin: 0em;
+	margin-top: 2em;
+	margin-bottom: 0em;
+	text-align: center;
+	font-size: 35px;
+	}
+}
+.mynd{
+	width: 10em;
+	align-items: center;
+	margin: auto;
+}
+.wrapper-index{
+	margin: 1em;
+	section{
+		.stod{
+			margin: 0em;
+			.fyrstu-dalkar{
+				margin-bottom: 0em;
+				text-align: center;
+				background-color: #fefefe;
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				text-overflow: ellipsis;
+				.petrol{
+					display: grid;
+					grid-template-columns: 50% 50%;
+					grid-template-areas: "bensin diesel";
+					.bensin{
+						grid-area: bensin;
+						margin: 0em;
+						padding: 0em;
+					}
+					.diesel{
+						grid-area: diesel;
+					}
+				}
+				p{
+					padding-top: .1em;
+
+				}
+				h1{
+					font-size: 50px;
+					margin: 0;
+					color: green;
+					display: inline-block;
+				}
+				h4{
+					padding: 0em;
+					padding-top: 1em;
+					margin-bottom: 0em;
+					font-size: 36px;
+					white-space: nowrap;
+ 	 				overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				h5{
+					display: inline;
+
+				}
+			}
+		}
+		.meira{
+			background-color: #505261;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			padding: 1em;
+			margin: .3em;
+			margin-top: 0em;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+			text-align: center;
+			font-family: font-header;
+			:hover{
+				background-color: #105261;
+			}
+		}
+			
+
+		
+	}
+}
+.wrapper-sida{
+	margin: auto;
+	section{
+		article{
+			width: 100%;
+			margin: 0 auto;
+			.mynd{
+				margin: .5em;
+				padding: 1.4em;
+				display: grid;
+				grid-template-columns: repeat(1,1fr);
+				img{
+					border-left: 1px solid #fefefe;
+					border-right: 1px solid #fefefe;
+					border-top: 1px solid #fefefe;
+					padding: 4em;
+				}
+				.meira{
+					background-color: #505261;
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+					padding: .1em;
+					margin-top: 0em;
+					color: #fefefe;
+					h4{
+						text-align: center;
+					}
+				}	
+				a{
+					text-decoration: none;
+					color: #fff;
+					text-align: center;
+					font-family: font-header;
+					:hover{
+						background-color: #105261;
+					}
+							
+				}
+			}
+		}
+	}
+	.odyrt{
+		article{
+			width: 100%;
+			margin: 0 auto;
+			.mynd{
+				margin: .5em;
+				padding: 1.4em;
+				display: grid;
+				grid-template-columns: repeat(1,1fr);
+				img{
+					border-left: 1px solid #fefefe;
+					border-right: 1px solid #fefefe;
+					border-top: 1px solid #fefefe;
+					padding: 4em;
+				}
+				.meira{
+					background-color: #505261;
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+					padding: .1em;
+					margin-top: 0em;
+					color: #fefefe;
+					h4{
+						text-align: center;
+					}
+				}	
+				a{
+					text-decoration: none;
+					color: #fff;
+					text-align: center;
+					font-family: font-header;
+					:hover{
+						background-color: #105261;
+					}
+							
+				}
+			}
+		}
+	}
+}
+.wrapper-sida1{
+	margin: auto;
+	section{
+		width: 100%;
+		margin: 0 auto;
+		.fyrstu-dalkar{
+			margin-bottom: 3em;
+			text-align: center;
+			background-color: #fefefe;
+			border-radius: 5px;
+			text-overflow: ellipsis;
+			.petrol{
+				display: grid;
+				grid-template-columns: 50% 50%;
+				grid-template-areas: "bensin diesel";
+				.bensin{
+					grid-area: bensin;
+					margin: 0em;
+					padding: 0em;
+				}
+				.diesel{
+					grid-area: diesel;
+				}
+			}
+			p{
+				padding-top: .1em;
+			}
+			h1{
+				font-size: 50px;
+				margin: 0;
+				color: green;
+				display: inline-block;
+			}
+			h4{
+				padding: 0em;
+				padding-top: 1em;
+				margin-bottom: 0em;
+				font-size: 36px;
+				white-space: nowrap;
+ 	 			overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			h5{
+				display: inline;
+
+			}
+			
+
+		}
+	}
+}
+.ERROR{
+	max-width: 60em;
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	img{
+		display: flex;
+		justify-content: center;
+		position: fixed;
+		transform: translate(0em, 13em);
+		
+	}
+}
+
+footer{
+	margin-top: 2em;
+}
+@media screen and (min-width: 37.5em){
+	.wrapper-index{
+		margin: auto;
+		section{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			.fyrstu-dalkar{
+				margin: .3em;
+
+			}
+		}
+	}
+	.wrapper-sida{
+		section{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			
+		}
+	}
+	.wrapper-sida1{
+		margin: auto;
+		section{
+			article{
+				width: 100%;
+				margin: 0 auto;
+				.mynd{
+
+				}
+			}
+		}
+	}
+}		
+/*==== viðmið 48em (760px ====*/
+@media screen and (min-width: 48em){
+	.wrapper-index{
+		margin: auto;
+		max-width: 48em;
+		section{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			.fyrstu-dalkar{
+				width: 20em;
+
+			}
+		}
+	}
+	.wrapper-sida{
+		max-width: 48em;
+		section{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+		}
+	}
+	.wrapper-sida1{
+		margin: auto;
+		max-width: 48em;s
+		section{
+			article{
+				width: 100%;
+				margin: 0 auto;
+				.mynd{
+
+				}
+			}
+		}
+	}
+}		
+@media screen and (min-width: 60em){
+	.wrapper-index{
+		max-width: 60em;
+		margin: auto;
+		section{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+		}
+	}
+	.wrapper-sida{
+		max-width: 60em;
+		margin: auto;
+		section{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			article{
+				
+			}
+		}
+	}
+	.wrapper-sida1{
+	margin: auto;
+	max-width: 60em;
+	section{
+		article{
+			width: 100%;
+			margin: 0 auto;
+			.mynd{
+
+			}
+		}
+	}
+}
+}
+@media screen and (min-width: 80em){
+	.wrapper-index{
+		max-width: 60em;
+		margin: auto;
+		section{
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+		}
+	}
+}
+
